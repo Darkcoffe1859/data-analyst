@@ -1,0 +1,110 @@
+/* Reset and base styles */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* About page container layout */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 3rem;
+  gap: 2rem;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+}
+
+/* Left section of the about content */
+.about-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  max-width: 600px;
+}
+
+.about-left h1 {
+  font-size: 2.5rem;
+  color: #274C77;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.about-left h2 {
+  font-size: 1.25rem;
+  color: #4E9CFA;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.about-left p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+blockquote {
+  font-style: italic;
+  color: #777;
+  margin: 1.5rem 0;
+  border-left: 4px solid #4E9CFA;
+  padding-left: 1rem;
+  text-align: justify;
+}
+
+.skills-list,
+.cert-list {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.skills-list li,
+.cert-list li {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.4rem;
+  text-align: justify;
+}
+
+/* Resume button styling */
+.resume-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #2E7D32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.resume-btn:hover {
+  background-color: #3b5f94;
+}
+
+/* Right section: profile image */
+.about-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}

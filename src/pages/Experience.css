@@ -1,0 +1,78 @@
+/* Container for the entire experience section */
+.experience-container {
+    max-height: 100vh;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+
+  }
+  
+  .experience-container ::-webkit-scrollbar {
+    background-color: #ccc;
+    border-radius: 3px;
+  }
+  /* Title styling */
+  .experience-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #274c77; /* Dark blue color */
+    margin-bottom: 24px;
+  }
+  
+  /* Styling for individual experience cards */
+  .experience-card {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(78, 156, 250, 0.1); /* Light shadow for card */
+    background-color: #ffffff; /* White background for cards */
+  }
+  
+  /* Card content */
+  .experience-card-content {
+    padding: 20px;
+  }
+  
+  /* Job title and company name styling */
+  .experience-job-title {
+    font-weight: 600;
+    color: #274c77; /* Dark blue for job title */
+    font-size: 1.25rem;
+  }
+  
+  /* Job information (company, location, date) */
+  .experience-job-info {
+    font-size: 0.875rem;
+    color: grey;
+    margin-top: 5px;
+  }
+  
+  /* Divider between job title and responsibilities */
+  .experience-divider {
+    margin: 20px 0;
+    border-color: #f0f0f0; /* Light grey border */
+  }
+  
+  /* List for responsibilities */
+  .experience-list {
+    padding-left: 20px; /* Add some padding for the list */
+  }
+  
+  /* List item styling */
+  .experience-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Icon styling */
+  .experience-list-item-icon {
+    margin-right: 10px;
+    color: #274c77; /* Dark blue icon color */
+  }
+  
+  /* List item text styling */
+  .experience-list-item-text {
+    font-size: 1rem;
+    color: #333333; /* Dark grey for text */
+  }
+  
